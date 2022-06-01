@@ -8,7 +8,7 @@ Read offical [Documentation](https://sentinelsat.readthedocs.io/)
 
 Clone repository:
 
-    $ git clone https://pip.pypa.io/en/stable/getting-started/
+    $ git clone https://github.com/baxtiyor-gis/sentinel-image-download-py
 
 Create virtual environment
 
@@ -18,6 +18,13 @@ Activate virtual environment (cmd)
     
     $ env\Scripts\activate 
 
+
+
+Activate virtual environment (bash)
+    
+    $ source env/Scripts/activate 
+
+
 Rename .env_example to .env and set login and password from https://scihub.copernicus.eu
 
 
@@ -25,11 +32,6 @@ Rename .env_example to .env and set login and password from https://scihub.coper
     password = "simple_password"
     url = "https://scihub.copernicus.eu/dhus"
     
-
-Activate virtual environment (bash)
-    
-    $ source env/Scripts/activate 
-
 Install packages
     
     $ pip install -r requirements.txt
